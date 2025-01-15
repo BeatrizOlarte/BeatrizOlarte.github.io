@@ -1,0 +1,217 @@
+.navbar {
+    position:fixed;
+    top: 0;
+    width: 80%;    
+    background-color: #000000f9;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: #000000f9;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+#B-CV {
+    height: 2%;
+    width: 350px;
+    background-color: #000000f9;
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.profile {
+    padding: 0px 50px
+   
+}
+
+#linkedin {
+    color: black;   
+    font-size: 100px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.icon {
+    background-image: url('../images/Screenshot\ 2024-10-09\ at\ 15.14.38.png');
+    background-size: cover;
+    height: 20px;  
+    width: 20px;
+    display: inline-block;
+    
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-container input {
+    margin-right: 10px;
+}
+
+/* example */
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 100px;
+    background: #000000;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px
+    
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {margin-left: 0}
+}
+
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+.icon {
+    background-image: url('../images/Screenshot\ 2024-10-09\ at\ 15.14.38.png');
+    background-size: cover;
+    height: 20px;  
+    width: 20px;
+    display: inline-block;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-container input {
+    margin-right: 8px;
+}
+
+/* example */
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 100px;
+    background: #000000;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode h4,
+.light-mode h5,
+.light-mode h6,
+.light-mode p,
+.light-mode li,
+.light-mode a,
+.light-mode .w3-text-grey,
+.light-mode .w3-text-grey {
+    color: #000000 !important;
+}
+
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.home-section {
+    background-color: inherit;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode .home-section {
+    background-color: #ffffff;
+}
+
+.dark-mode .home-section {
+    background-color: #000000;
+}
+
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #08192c;
+    color: #ffffff;
+    font-size: 14px;
+}
