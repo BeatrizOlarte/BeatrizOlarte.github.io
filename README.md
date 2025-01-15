@@ -1,1 +1,1 @@
-# BeatrizOlarte.github.io
+# BeatrizOlarte.io
